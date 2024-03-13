@@ -2,7 +2,7 @@
 
 https://andrewb1998.github.io/Data-Analysis-and-Knowledge-Discovery-Part-2/
 
-The assignment consisted of:
+Assignment 2 consisted of:
 - Clustering
 - Regression (Ridge and k-NN)
 - k-NN neighbours classification
