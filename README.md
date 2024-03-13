@@ -1,6 +1,6 @@
-# Data-Analysis-and-Knowledge-Discovery-Exercise-2
+# Exercise 1 (TKO 3103 )
 
-https://andrewb1998.github.io/Data-Analysis-and-Knowledge-Discovery-Exercise-2/
+https://andrewb1998.github.io/Data-Analysis-and-Knowledge-Discovery-Part-2/
 
 The assignment consisted of:
 - Clustering
