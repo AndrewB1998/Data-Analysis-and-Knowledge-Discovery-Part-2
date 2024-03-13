@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DAKD2023_ex2_Andrew_Bowo</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>DAKD2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14580,21 +14580,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2><font color = red> Please fill up the asked information!</h2>
-<p><font color = teal>Name: Andrew Bowo</p>
-<p><font color = teal>Student number: 525282</p>
-<p><font color = teal>Mail: anbowo@utu.fi</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <h1 id="Data-Analysis-and-Knowledge-Discovery:-Exercise-2,-Supervised-learning">Data Analysis and Knowledge Discovery: Exercise 2, Supervised learning<a class="anchor-link" href="#Data-Analysis-and-Knowledge-Discovery:-Exercise-2,-Supervised-learning">&#182;</a></h1>
 </div>
@@ -14617,25 +14602,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </ul>
 <p><i>Machine learning</i> is a subfield of artificial intelligence that provides automatic, objective and data-driven techniques for modeling the data. Its two main branches are <i>supervised learning</i> and <i>unsupervised learning</i>, and in this exercise, we are going to use the former, <font color = green>supervised learning</font>, for classification and regression tasks.</p>
 <p>For classification, data remains the same as in the previous exercise, but I've already cleaned it up for you. Some data pre-processing steps are still required to ensure that it's in an appropriate format so that models can learn from it. Even though we are not conducting any major data exploration nor data preparation this time, <i>you should <b>never</b> forget it in your future data analyses</i>.</p>
-<hr>
-<p><b>General guidance for exercises</b></p>
-<ul>
-<li>Answer <b>all</b> questions below, even if you can't get your script to fully work.</li>
-<li>Write clear and easily readable code, and include explanations what your code does.</li>
-<li>Make informative illustrations: include labels for x and y axes, legends and captions for your plots.</li>
-<li>You can add more code and markup cells, as long as the flow of the notebook stays readable and logical.</li>
-<li><b>A complete submission includes a working notebook</b>, so it's highly recommended to run "Restart &amp; Run all" before the final save. Remember to submit BOTH versions of the exercise (ipynb AND html/pdf). </li>
-<li>Grading: <em>Fail</em>/<em>Pass</em>/<em>Pass with honors</em> (+1)<ul>
-<li>Passing requires that <b>the parts 1-5</b> are completed.</li>
-<li>+1 bonus point (grading <em>Pass with honors</em>) requires a <b>completely</b> correct solution and also thorough analysis.</li>
-</ul>
-</li>
-<li>If you encounter problems, Google first. Always give the credit where it belongs so please <b>cite your sources, whether you're referencing text or code</b>. You will learn so much more when you have to research and summarize information in your own words. If you can't find an answer to the problem, don't hesitate to ask in the Moodle discussion or directly via email (tuhlei@utu.fi).</li>
-<li>Note! Don't leave it to the last moment! No feedback service during weekends.</li>
-<li><b>We do not encourage the use of ChatGPT or similar models</b>, but if you choose to do so, always be critical of the outputs and try to comprehend them before any use. Also, make a brief description how you utilized the model (what was your input and how did you benefit from the output).</li>
-</ul>
-<p><font color = green> The guided exercise session is held on the 28th of November at 14:15-16:00, at TSE Elovena-Sali.</font></p>
-<p><font color = red size = 4><b>The deadline is the 30th of November at 23:59</b></font>. Late submissions will not be accepted unless there is a valid excuse for an extension which should be asked <strong>before</strong> the original deadline.</p>
 <hr>
 
 </div>
@@ -14931,8 +14897,7 @@ Name: count, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = lightcoral> Write your answer here:</p>
-<p>Since the value counts of the target variable cardio is imbalanced (1057 vs 443), it's good to use stratification so that the proportions are not biased towards the majority (0). Therefore stratify=labels is added as a parameter &lt;/font&gt;</p>
+<p>Since the value counts of the target variable cardio is imbalanced (1057 vs 443), it's good to use stratification so that the proportions are not biased towards the majority (0). Therefore stratify=labels is added as a parameter.</p>
 
 </div>
 </div>
@@ -14950,7 +14915,6 @@ Name: count, dtype: int64</pre>
 <ul>
 <li>Describe how the k-NN model would make predictions about whether or not a patient has a CVD when the features are not standardized, and explain the reasons behind.</li>
 </ul>
-<p><em>Note: Some good information about preprocessing and how to use it for train and test data can be found <a href="https://scikit-learn.org/stable/modules/preprocessing.html">https://scikit-learn.org/stable/modules/preprocessing.html</a></em>.</p>
 
 </div>
 </div>
@@ -14993,7 +14957,7 @@ Name: count, dtype: int64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font color = lightcoral> Write your answer here:</p>
-<p>If the data set isn't standardized the k-NN model would emphasize the features with larger scales or ranges. This is due to the algorithms functionality to make predictions based on the distance of data points and the features have different scaling/ arbitrary points  &lt;/font&gt;</p>
+<p>If the data set isn't standardized the k-NN model would emphasize the features with larger scales or ranges. This is due to the algorithms functionality to make predictions based on the distance of data points and the features have different scaling/ arbitrary points</p>
 
 </div>
 </div>
@@ -15006,7 +14970,6 @@ Name: count, dtype: int64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<p>It's time for us to train the model!</p>
 <p><strong>Exercise 1 D)</strong></p>
 <p>Train a k-NN model with $k=3$. Print out the confusion matrix and use it to compute the accuracy, the precision and the recall.</p>
 <ul>
@@ -15084,8 +15047,7 @@ Name: count, dtype: int64</pre>
 <p><font color = lightcoral> Write your answer here:</p>
 <p>The cells in the confusion matrix represent from left to right: true positive, true negative, false positive, false negative. Upper row represents how many were predicted correctly and lower how many wrong. In the context of our dataset it had a set of 300 from 1500 to do the predictions and ~85 of them went wrong, therefore the accuracy is tolerable.</p>
 <p>As the precision score is about 53% it would suggest that the accuracy of the positive predictions is almost at a coin toss level. This may be caused by the binary/ categorical nature of some of the features, which aren't as measurable as the numeric.</p>
-<p>With this dataset already being unbalanced from the start (mixture of different measurable content, categorical and binary features) the metrics provide insight in the actual performance of the model. The high accuracy of the dataset might relate to the model predicting the majority class
-&lt;/font&gt;</p>
+<p>With this dataset already being unbalanced from the start (mixture of different measurable content, categorical and binary features) the metrics provide insight in the actual performance of the model. The high accuracy of the dataset might relate to the model predicting the majority class</p>
 
 </div>
 </div>
@@ -15215,7 +15177,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = lightcoral> \Write your answer here:</p>
+<p><font color = lightcoral> Write your answer here:</p>
 <p>It appears that the accuracy scores vary between 0.65 and 0.75 with the majority in ~0.71 (close to the previously calculated accuracy). The accuracy is spread normalized indicating that the y-axis represents the relative frequency rather than the actual frequency and as the accuracy score variance is small, the performance of the k-nn model is consistent  &lt;/font&gt;</p>
 
 </div>
@@ -15236,7 +15198,6 @@ class="
 <ul>
 <li>How well does the k-NN model perform in distinguishing between healthy individuals and those with a CVD?</li>
 </ul>
-<p><em>Tip: You should not use the predicted labels in this exercise.</em></p>
 
 </div>
 </div>
@@ -15460,19 +15421,8 @@ Average accuracy: 0.764
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = royalblue> Write your answer here:</p>
+<p><font color = lightcoral> Write your answer here:</p>
 <p>The k-NN model seems to work reasonably well but the features may need more fine tuning and balancing for more accurate predictions. The k-NN model works well for capturing local patterns&lt;/font&gt;</p>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 
 </div>
 </div>
@@ -15621,7 +15571,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = green>
+<p><font color = lightcoral>
 Based on the computations, the optimal k value would be 329 (accuracy increases with k-number) but this seems counter-intuitive. A large k-value usually leads to the model becoming biased, due to emphasizing predictions based on overall distribution of the data and missing local structures (underfitting)</p>
 <p>This can be caused by the lack of standardization or the evaluation method isn't appropriate to the data. As the precision seems to settle when k increases, it would appear that it would settle around 0.8 overall. If the k-value is low, then usually this leads to overfitting, where the model performs well on the current data but poorly when new data is introduced  &lt;/font&gt;</p>
 
@@ -15761,7 +15711,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = red>
+<p><font color = lightcoral>
 Now, the plot indicates that the best value for k would be 0, which cannot be true. It seems that the model makes its predictions based on the nearest single neighbor, thus isn't efficient or usable in situations where new unseen data is introduced.</p>
 <p>When training and testing is done on the same dataset, the model becomes overfitted and isn't able to make accurate predictions to new data
 &lt;/font&gt;</p>
@@ -15950,7 +15900,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = darkorange> Evaluating from the pairplot, it appears that the greatest aligning slopes are in the chest plot indicating that when chest size increases, age also increases. The more horizontal the line, the less correlation the variables have and in our set the earconch length seems to be the less correlated dimension.</p>
+<p><font color = lightcoral> Evaluating from the pairplot, it appears that the greatest aligning slopes are in the chest plot indicating that when chest size increases, age also increases. The more horizontal the line, the less correlation the variables have and in our set the earconch length seems to be the less correlated dimension.</p>
 <p>The male (value 1 assumed) and female correlation differences appear in total length, tail length, and skull width. These are represented with crossing lines</p>
 
 </div>
@@ -16016,8 +15966,8 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = darkorange>\&lt;Write your answer here&gt;</p>
-<p>Standardization is needed, since the values are in different ranges. The age and sex features are also dropped from features since age is the target/label variable and sex is binary value which doesn't need standardization the mutations also require to set the train and test sets back to dataframes for easier utilization further on&lt;/font&gt;</p>
+<p><font color = lightcoral>
+Standardization is needed, since the values are in different ranges. The age and sex features are also dropped from features since age is the target/label variable and sex is binary value which doesn't need standardization the mutations also require to set the train and test sets back to dataframes for easier utilization further on</font></p>
 
 </div>
 </div>
@@ -16170,7 +16120,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = darkorange>
+<p><font color = lightcoral>
 The MAE is in the same unit as the target variable. But since the data is standardized the value needs to be recalculated to correspond the actual age variable.A low MAE score indicates that the model is accurate against the true data. In our case the plot shows that the prediction is off by 0.789  when k=7 and 0.81 years when lambda is 17 and while the min standardized value is -1.4941 and max 2.813 (vs(1-9)), this would approximate to 4 years (the min and max computed with possum_label.....max() and min())
 </font></p>
 
@@ -16296,70 +16246,11 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = darkorange>
+<p><font color = lightcoral>
 While the k-NN model had an overall low score for MAE indicating that it's performing well, the graph indicates that the results maintained in the middle of the actual data. The k-NN model was more efficient overall and the Ridge regression model was less aligned with the increases and decreases of the values</p>
 <p>The cross-validation processes aided in getting a more 'clean' estimate on unseen data. As the actual MAE score was lower than the one provided by the cross-validation MAE, it has a more critical approach</p>
 <blockquote><p>&lt;/font&gt;</p>
 </blockquote>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
-<h2><font color = slategrey> BONUS: Feature selection - most useful features in predicting cardiovascular diseases </font></h2>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>You can stop here and get the "pass" grade! To get the "pass with honors" grade, you need to do the following exercise. This means you'll get one bonus point for the exam.</p>
-<p>The exercise is not as straightforward as the previous ones, and may require you to do some research of your own. You are also required to <strong>explain</strong> the steps you choose with your own words, and show that you tried to understand the idea behind the task. There's no single correct solution for this so just explain what you did and WHY you did it.</p>
-<hr>
-<p>Unfortunately, due to the lack of resources and time, doctors can't measure all the values represented in the given cardio dataset. Fortunately, eager students are willing to help: Your task is to identify <font color = slategrey>four [4] most useful features</font> for predicting the presence of the CVD from the dataset. The steps needed for this job are presented above except the feature selection part. You must remember not to leak any information from the test set when selecting the features, i.e., you try to find those five features using only the training set.</p>
-<p>Regarding the feature selection itself, you may choose your weapon from the three categories: filter methods, embedded methods or wrapper methods. Use <font color = slategrey>two methods from two different category and compare their outputs</font>. Bonus material about the methods is provided in Moodle.</p>
-<p>Evaluate the model of your choice with the limited dataset by examining the confusion matrix and computing the accuracy and the AUROC.</p>
-<p><strong>Discuss</strong> your findings and results.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Code - Bonus task</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><font color = slategrey>\<Write your answer here\></font></p>
 
 </div>
 </div>
