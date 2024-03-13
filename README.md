@@ -1,4 +1,4 @@
-# Exercise 1 (TKO 3103 )
+# Exercise 2 (TKO 3103 )
 
 https://andrewb1998.github.io/Data-Analysis-and-Knowledge-Discovery-Part-2/
 
